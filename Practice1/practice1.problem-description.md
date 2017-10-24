@@ -56,4 +56,4 @@ Additionally, your solution must be written in Functional Programming style:
 - You are not allowed to use the keywords `var`, `let`, `if` or `switch`. Use the tenary operator for decision-making.
 - You are not allowed to mutate any object (arrays are also objects). When you want to mutate an object, create a new object instead.
 
-After you're done run `node test.js` to make sure the algorithm work correctly. After that submit the folder to your git repository for evaluation.
+After you're done run `node test-practice1.js` to make sure the algorithm work correctly. After that submit the folder to your git repository for evaluation.
