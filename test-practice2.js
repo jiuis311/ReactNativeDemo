@@ -18,20 +18,7 @@ function randomInt(min, max){
   return Math.floor(Math.random()*(max - min)) + min;
 }
 
-var tests1 = require('./Practice1/practice1-test-data.json');
-var searchPractice = require('./Practice1/searchPractice');
-var generatePractice = require('./Practice2/generatePractice');
-
-console.log('Basic javascript test');
-
-describe("Practice 1 - Binary Search:", function() {
-  tests1.forEach((testCase, index) => {
-    it(`search test no. ${index}`, function() {
-      var result = testCase.output;
-      expect(searchPractice(testCase.input, testCase.target)).toEqual(result);
-    });
-  });
-});
+const generatePractice = require('./Practice2/generatePractice');
 
 describe("Practice 2 - Generator:", function() {
     const length = randomInt(0, 500);
