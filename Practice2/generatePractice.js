@@ -13,7 +13,7 @@ const TestType = {
 };
 
 function generate(numberOfTestcases) {
-  return Array.from({length: numberOfTestcases});
+  return Array.from({length: numberOfTestcases}); // Remove this line and use your own algorithm
 }
 
 module.exports = generate;
