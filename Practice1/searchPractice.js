@@ -1,7 +1,7 @@
 'use strict'
 
-function search(input, target) {
+function binarySearch(input, target) {
   return input.indexOf(target);  // Remove this line and change to your own algorithm
 }
 
-module.exports = search
+module.exports = binarySearch
